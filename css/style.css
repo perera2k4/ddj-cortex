@@ -1,0 +1,55 @@
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+#showOnPrint {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.assinaturaResp {
+    font-family: 'Homemade Apple', cursive !important;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.assinaturas hr {
+    margin: 0;
+}
+
+.assinaturas {
+    text-align: center;
+}
+
+p#p1:first-letter, p#p2:first-letter {
+    margin-left: 2em;
+}
+
+#title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.bg-dark{
+    padding: 14px 0 0 0;
+    background-color: #000;
+    background-color: #000;
+    background-image: -moz-radial-gradient(center, ellipse cover, #2a2a2a 1%, #000 100%);
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#2a2a2a), color-stop(100%, #000));
+    background-image: -webkit-radial-gradient(center, ellipse cover, #2a2a2a 1%, #000 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #2a2a2a 1%, #000 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #2a2a2a 1%, #000 100%);
+    background-image: radial-gradient(ellipse at center, #2a2a2a 1%, #000 100%);
+    color: #fff;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2a2a2a", endColorstr="#000",GradientType=1);
+}
+
+.table-preta{
+    background-color: #000;
+    color: #fff;
+}
