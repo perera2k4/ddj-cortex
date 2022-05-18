@@ -494,8 +494,8 @@ function elaborarOfc()
         $("#showOnPrint").show()
         $("#assinaturaResp").text($("#respPrisao").val())
         $(".navbar").hide();
-        $("#p1").append(`Por meio desta carta, convoco o <b>${$("#nomePessoa").val().toUpperCase()}</b> portador do <b>RG</b> de Nº<b>${$("#rgPessoa").val().toUpperCase()}</b>, para comparacer de imediato a partir do recebimento deste ofício, à Delegacia de Las Venturas <b>para ${$("#motivoConvoc").val().toUpperCase()}</b>.`)
-        $("#p2").append('O não comparecimento na delegacia no prazo de até <b>48 horas</b> após o recebimento do ofício, automaticamente constará a negligência por parte do mesmo, sendo emitido um mandado de <b>busca e apreensão.</b>')
+        $("#p1").append(`Eu, <b>${$("#nomePessoa").val().toUpperCase()}</b> portador(a) do <b>RG</b> de Nº<b>${$("#rgPessoa").val().toUpperCase()}</b>, apresento aos comandantes do Departamento de Polícia Destiny o seguinte relatorio de patrulhamento: <b>${$("#motivoConvoc").val().toUpperCase()}</b>.`)
+        $("#p2").append(' ')
         $("#dataAtual").append('Destiny, '+str_data)
         html2canvas(document.getElementById("container"), {
             allowTaint: true,
